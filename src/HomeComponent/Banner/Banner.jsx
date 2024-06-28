@@ -5,7 +5,7 @@ import { FaFacebookF,FaInstagram,FaWhatsapp,FaYoutube } from "react-icons/fa";
 const Banner = () => {
    
   return (
-    <>
+    <div className='bg-secondary_bg_color py-10'>
     
   <div className=' relative w-full flex items-center justify-between h-[100vh] pt-16 px-[8%] bg-cover bg-center'>
      <div>
@@ -20,7 +20,7 @@ const Banner = () => {
          <a href="#" className='w-10 h-10 rounded-full border-2 border-[#0ef] flex justify-center items-center text-[20px] text-[#0ef] my-5 hover:bg-[#0ef] hover:text-[#000000]'><FaYoutube/></a>
       </div>
       <div className='slistexttop'>
-        <button className='py-4 px-8 text-[20px] font-bold bg-[#0ef] border-2 border-[#0ef] hover:text-[#0ef] rounded-md hover:bg-transparent '>
+        <button className='py-3 px-8 text-[20px] font-bold bg-[#0ef] border-2 border-[#0ef] hover:text-[#0ef] rounded-md hover:bg-transparent '>
               More About Me
         </button>
       </div>
@@ -32,7 +32,7 @@ const Banner = () => {
 </div>
 
 
-    </>
+    </div>
   )
 }
 

@@ -4,9 +4,9 @@
 
 :root {
   --main_bg_color: #ffffff;
-  --secondary_bg_color: #f5f5f3;
-  --main_font_color: #262626;
-  --main_font_color: #07369c;
+  --secondary_bg_color: #070068;
+  --main_font_color: #05013a;
+  
   --secondary_font_color: #767676;
   --footer_text_color: #6d6d6d;
   --DMsans: "DM Sans", sans-serif;
@@ -25,9 +25,9 @@
   a {
     @apply inline-block no-underline;
   }
-  body {
+  /* body {
     @apply bg-[#0e1f46];
-  }
+  } */
   img {
     @apply align-middle;
   }
