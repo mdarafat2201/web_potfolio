@@ -26,7 +26,7 @@
     @apply inline-block no-underline;
   }
   body {
-    @apply bg-[#07369c];
+    @apply bg-[#0e1f46];
   }
   img {
     @apply align-middle;
@@ -49,34 +49,74 @@
   }
 }
 @layer components {
-  .logo {
-   animation: slideleft 1s ease forwards;
+ 
+  .slistextbottom{
+    animation: slidebottom 1s ease forwards;
+    animation-delay: .7s;
   }
-  @keyframes  slideleft{
+  @keyframes  slidebottom{
     0%{
-      left: -100%;
+      transform: translateY(100px);
       opacity: 0;
     }
     100%{
-      left: 0%;
+      transform: translateY(0px);
       opacity: 1;
     }
     
    
   } 
-  .slistext{
-    animation: slidedoun 1s ease forwards;
+  .slistexttop{
+    animation: slidetop 1s ease forwards;
+    animation-delay: .7s;
   }
-  @keyframes  slidedoun{
+  @keyframes  slidetop{
     0%{
-      right: -100%;
+      transform: translateY(-100px);
       opacity: 0;
     }
     100%{
-      right: 0%;
+      transform: translateY(0px);
       opacity: 1;
     }
     
    
   } 
+  .slistextLeft {
+    animation: slideleft 1s ease forwards;
+    animation-delay: .7s;
+   }
+   @keyframes  slideleft{
+     0%{
+      transform: translateX(-100px);
+       opacity: 0;
+     }
+     100%{
+      transform: translateX(0px);
+       opacity: 1;
+     }
+     
+    
+   } 
+   .slistextRight {
+    animation: slideRight 1s ease forwards;
+    animation-delay: .7s;
+   }
+   @keyframes  slideRight{
+     0%{
+      transform: translateX(100px);
+       opacity: 0;
+     }
+     100%{
+      transform: translateX(0px);
+       opacity: 1;
+     }
+     
+    
+   } 
+   .box_shodoe{
+    box-shadow: 7px 5px 33px 50px rgba(0,238,255,0.77);
+    -webkit-box-shadow: 7px 5px 33px 50px rgba(0,238,255,0.77);
+    -moz-box-shadow: 7px 5px 33px 50px rgba(0,238,255,0.77);
+   }
 }
