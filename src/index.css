@@ -119,4 +119,9 @@
     -webkit-box-shadow: 7px 5px 33px 50px rgba(0,238,255,0.77);
     -moz-box-shadow: 7px 5px 33px 50px rgba(0,238,255,0.77);
    }
+   .cart-shodor{
+    box-shadow: 3px 0px 23px 1px rgba(0,238,255,0.75);
+-webkit-box-shadow: 3px 0px 23px 1px rgba(0,238,255,0.75);
+-moz-box-shadow: 3px 0px 23px 1px rgba(0,238,255,0.75);
+   }
 }
