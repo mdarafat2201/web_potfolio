@@ -7,7 +7,7 @@
   --secondary_bg_color: #070068;
   --main_font_color: #05013a;
   
-  --secondary_font_color: #767676;
+  --secondary_font_color: #af0808;
   --footer_text_color: #6d6d6d;
   --DMsans: "DM Sans", sans-serif;
 }
@@ -114,6 +114,22 @@
      
     
    } 
+   .slisparsenLeft {
+    animation: slideleft 1s ease forwards;
+    animation-delay: 1s;
+   }
+   @keyframes  slideleft{
+     0%{
+      transform: translateX(-100%);
+       opacity: 1;
+     }
+     100%{
+      transform: translateX(0%);
+       opacity: 1;
+     }
+     
+    
+   } 
    .box_shodoe{
     box-shadow: 7px 5px 33px 50px rgba(0,238,255,0.77);
     -webkit-box-shadow: 7px 5px 33px 50px rgba(0,238,255,0.77);
@@ -124,4 +140,66 @@
 -webkit-box-shadow: 3px 0px 23px 1px rgba(0,238,255,0.75);
 -moz-box-shadow: 3px 0px 23px 1px rgba(0,238,255,0.75);
    }
+   .svg_shode{
+    fill: none;
+    stroke: #0ef;
+    stroke-width: 20px;
+   }
+   .path{
+    fill: none;
+    stroke: #0ef;
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+   }
+   @keyframes anim {
+    100%{
+      stroke-dashoffset: 72;
+    }
+   }
+
+   .path1{
+    fill: none;
+    stroke: #0ef;
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim1 2s linear forwards;
+   }
+   @keyframes anim1 {
+    100%{
+      stroke-dashoffset: 172;
+    }
+   }
+
+   .path2{
+    fill: none;
+    stroke: #0ef;
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim2 2s linear forwards;
+   }
+   @keyframes anim2 {
+    100%{
+      stroke-dashoffset: 122;
+    }
+   }
+
+   .path3{
+    fill: none;
+    stroke: #0ef;
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim3 2s linear forwards;
+   }
+   @keyframes anim3 {
+    100%{
+      stroke-dashoffset: 90;
+    }
+   }
+   
+   
 }
